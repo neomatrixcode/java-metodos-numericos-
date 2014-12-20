@@ -1,0 +1,36 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -3.19781478216829
+xMax = 5.49536635071691
+xTickUnit = 1
+xGridUnit = 1
+xShowGrid = 1
+yMin = -3.03839379750404
+yMax = 1.53696469348817
+yTickUnit = 0.5
+yGridUnit = 0.5
+yShowGrid = 1
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = ((e^x)*(cos x))-(x^3)
+Color = clBlue
+
+[Data]
+TextLabelCount = 0
+FuncCount = 1
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

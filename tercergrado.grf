@@ -1,0 +1,98 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -46.7018216195941
+xMax = 87.8450125163478
+xTickUnit = 10
+xGridUnit = 10
+xShowGrid = 1
+yMin = -34.7025283263117
+yMax = 36.1115949031314
+yTickUnit = 5
+yGridUnit = 5
+yShowGrid = 1
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 0
+Radian = 1
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 5
+Style = 5
+LabelPosition = 1
+PointCount = 7
+Points = 3,-31;4,6;7,10;8,5;15,3;17,6;18,20;
+LegendText = Serie de puntos 1
+
+[Func1]
+FuncType = 0
+y = (0.10*x^3)+(-3.46*x^2)+(36.86*x)+(-113.17)
+Visible = 0
+Color = clBlue
+
+[PointSeries2]
+FillColor = clLime
+LineColor = clBlue
+Size = 5
+Style = 5
+LabelPosition = 1
+PointCount = 2
+Points = 3.38,-31;4.38,20.05;
+Visible = 0
+LegendText = Serie de puntos 2
+
+[Func2]
+FuncType = 0
+y = (-95.34)+(33.84*x)+(-3.40*x^2)+(0.10*x^3)
+Visible = 0
+Color = clSkyBlue
+Size = 4
+
+[Func3]
+FuncType = 0
+y = -1.783332376270709E-9 + -159.92431060187482 x + 91.11366297719715 x^2 + -16.684001765686453 x^3 + 0.8356899637566277 x^4 + 0.06881429450366859 x^5 + -0.007335918543297323 x^6 + 4.1780510236342316E-5 x^7 + 9.34847830948198E-6 x^8 + 5.244145239965358E-8 x^9 + -1.0241752504847411E-8 x^10
+Visible = 0
+Color = clBlack
+Size = 2
+
+[Func4]
+FuncType = 0
+y = -1.7013996252131498E-10 + -120.99232806703233 x + 60.223129307435656 x^2 + -8.822431415875755 x^3 + 0.34413053621332207 x^4 + -0.0051054071102936555 x^5 + 0.0024850807331224783 x^6 + -1.2990685138410102E-4 x^7 + 2.727145888028205E-6 x^8 + -2.7255592761875836E-7 x^9 + 9.563170394695775E-9 x^10 + -5.208212108729419E-10 x^11 + -2.383387238009974E-11 x^12 + 2.3302620319936624E-12 x^13 + 3.073219191256601E-14 x^14 + -7.358722754762988E-15 x^15 + -2.193819986626166E-16 x^16 + 1.2283112440479186E-17 x^17 + 4.2499213351346127E-19 x^18 + 9.588234105428511E-21 x^19 + 1.0388181073943292E-21 x^20 + 2.3405123217119764E-22 x^21 + -1.2449392585225025E-23 x^22 + 8.805136805790954E-25 x^23 + -2.1055356037071083E-26 x^24 + 1.5628574013977091E-27 x^25 + -5.985383321073944E-29 x^26 + -2.1364952610520936E-30 x^27 + 2.8122959857649204E-32 x^28 + -4.750080336476285E-33 x^29 + -4.46266323571326E-34 x^30
+Visible = 0
+Color = clGreen
+
+[Func5]
+FuncType = 0
+y = -1.6993180003168837 + -0.2661863697812308 x + 0.06173827113562305 x^2 
+Visible = 0
+Color = clLime
+Size = 2
+
+[Func6]
+FuncType = 0
+y = -33.67822106767882 + 7.0855722625258455 x + -0.2616943190861775 x^2 
+Visible = 0
+Color = clBlue
+Size = 2
+
+[Func7]
+FuncType = 0
+y = -463.91265248296156 + 264.81118949842926 x + -51.05922029693526 x^2 + 3.771252666624568 x^3 + -0.025967586937630814 x^4 + -0.007191126742016363 x^5 + 2.1624336750911443E-5 x^6 + 9.715458631910052E-6 x^7 + 3.869357454095682E-7 x^8 + -2.5320075611012678E-8 x^9 + 1.836215813880744E-10 x^10 
+Color = clMoneyGreen
+Size = 2
+
+[Data]
+TextLabelCount = 0
+FuncCount = 7
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
